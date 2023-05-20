@@ -99,6 +99,12 @@ p {
     border: none;
     color: var(--txt-color-dim);
     font-size: 0.8rem;
+    transition: all 0.2s ease;
+}
+
+.state-toggles>button:hover {
+    cursor: pointer;
+    color: white;
 }
 
 .component {
@@ -131,6 +137,12 @@ p {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    transition: all 0.3s ease;
+}
+
+.card-content:hover {
+    background-color: hsl(236, 36%, 29%);
+    cursor: pointer;
 }
 
 h2 {
@@ -153,6 +165,16 @@ h2 {
     gap: 1rem;
     align-items: flex-end;
     justify-content: center;
+}
+
+.more {
+    color: var(--txt-color-dim);
+    transition: all 0.3s ease;
+}
+
+.more:hover {
+    cursor: pointer;
+    color: white;
 }
 
 .work {
