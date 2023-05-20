@@ -107,6 +107,10 @@ p {
     color: white;
 }
 
+.state-toggles>button.active {
+    color: white;
+}
+
 .component {
     /* background-color: blue */
     background-color: var(--card-color);

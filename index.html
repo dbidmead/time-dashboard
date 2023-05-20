@@ -22,7 +22,7 @@
         </div>
         <div class="state-toggles">
           <button id="daily-toggle">Daily</button>
-          <button id="weekly-toggle">Weekly</button>
+          <button class="active" id="weekly-toggle">Weekly</button>
           <button id="monthly-toggle">Monthly</button>
         </div>
       </div>
@@ -31,11 +31,11 @@
         <div class="card-content">
           <div class="left-text">
             <h2>Work</h2>
-            <h1 class="hours">32hrs</h1>
+            <h1 class="hours" id="work-now">32hrs</h1>
           </div>
           <div class="right-text">
             <i class="fa-solid fa-ellipsis more"></i>
-            <p>Last week - 36hrs</p>
+            <p id="work-prev">Last week - 36hrs</p>
           </div>
         </div>
       </div>
@@ -44,11 +44,11 @@
         <div class="card-content">
           <div class="left-text">
             <h2>Play</h2>
-            <h1 class="hours">10hrs</h1>
+            <h1 class="hours" id="play-now">10hrs</h1>
           </div>
           <div class="right-text">
             <i class="fa-solid fa-ellipsis more"></i>
-            <p>Last week - 8hrs</p>
+            <p id="play-prev">Last week - 8hrs</p>
           </div>
         </div>
       </div>
@@ -57,11 +57,11 @@
         <div class="card-content">
           <div class="left-text">
             <h2>Study</h2>
-            <h1 class="hours">4hrs</h1>
+            <h1 class="hours" id="study-now">4hrs</h1>
           </div>
           <div class="right-text">
             <i class="fa-solid fa-ellipsis more"></i>
-            <p>Last week - 7hrs</p>
+            <p id="study-prev">Last week - 7hrs</p>
           </div>
         </div>
       </div>
@@ -70,11 +70,11 @@
         <div class="card-content">
           <div class="left-text">
             <h2>Exercise</h2>
-            <h1 class="hours">4hrs</h1>
+            <h1 class="hours" id="exercise-now">4hrs</h1>
           </div>
           <div class="right-text">
             <i class="fa-solid fa-ellipsis more"></i>
-            <p>Last week - 5hrs</p>
+            <p id="exercise-prev">Last week - 5hrs</p>
           </div>
         </div>
       </div>
@@ -83,11 +83,11 @@
         <div class="card-content">
           <div class="left-text">
             <h2>Social</h2>
-            <h1 class="hours">5hrs</h1>
+            <h1 class="hours" id="social-now">5hrs</h1>
           </div>
           <div class="right-text">
             <i class="fa-solid fa-ellipsis more"></i>
-            <p>Last week - 10hrs</p>
+            <p id="social-prev">Last week - 10hrs</p>
           </div>
         </div>
       </div>
@@ -96,11 +96,11 @@
         <div class="card-content">
           <div class="left-text">
             <h2>Self Care</h2>
-            <h1 class="hours">2hrs</h1>
+            <h1 class="hours" id="self-now">2hrs</h1>
           </div>
           <div class="right-text">
             <i class="fa-solid fa-ellipsis more"></i>
-            <p>Last week - 2hrs</p>
+            <p id="self-prev">Last week - 2hrs</p>
           </div>
         </div>   
       </div>
@@ -112,6 +112,6 @@
   </div>
 </body>
 <footer>
-  <script src="./app.js"></script>
+  <script src="./app.js" type="module"></script>
 </footer>
 </html>
