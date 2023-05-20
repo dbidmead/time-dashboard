@@ -58,12 +58,10 @@ const buttons = [
 
 // ---------------JSON DATA---------------
 
-import data from './data.json' assert { type: "json" }
+const data = await fetch('./data.json').then(res => res.json())
 // console.log(data)
 
-// let timeframes = data[0].timeframes;
 
-// console.log(Object.values(timeframes)[0].current)
 
 // ---------------HANDLE STATES---------------
 
